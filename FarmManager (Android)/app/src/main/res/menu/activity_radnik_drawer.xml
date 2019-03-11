@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_radnik_poslovi"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/poslovi" />
+        <item
+            android:id="@+id/nav_pregled_gazdinstva"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/pregledajGazdinstvo" />
+        <item
+            android:id="@+id/nav_vremenska_prognoza"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/prognoza" />
+    </group>
+
+    <item android:title="Resursi">
+        <menu>
+            <item
+                android:id="@+id/nav_resursi_stoka"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/stoka" />
+            <item
+                android:id="@+id/nav_resursi_njive"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/njive" />
+            <item
+                android:id="@+id/nav_resursi_mehanizacija"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/mehanizacija" />
+            <item
+                android:id="@+id/nav_resursi_plodovi"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/plodovi" />
+        </menu>
+    </item>
+</menu>

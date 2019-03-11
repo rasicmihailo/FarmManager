@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/zaposljavanje"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/zapRec"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#95d85b"
+        android:visibility="visible">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <RelativeLayout
+        android:id="@+id/relProba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#d1eff9"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="invisible">
+
+
+        <TextView
+            android:id="@+id/txtime"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColorHint="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtprez"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/txtime"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColorHint="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtdatum"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/txtprez"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColorHint="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtzan"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/txtdatum"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColorHint="@android:color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/plata"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/txtzan"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:hint="@string/plata"
+            android:inputType="textPersonName"
+            android:numeric="decimal"
+            android:paddingLeft="5dp"
+            android:textColorHint="@android:color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/radnoVreme"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/plata"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:hint="@string/vremeRadno"
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:textColorHint="@android:color/black"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:id="@+id/lin2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radnoVreme"
+            android:layout_marginTop="16dp"
+            android:background="@android:drawable/bottom_bar"
+            android:orientation="horizontal"
+            android:paddingBottom="1.0dip"
+            android:paddingLeft="4.0dip"
+            android:paddingRight="4.0dip"
+            android:paddingTop="5.0dip"
+            android:visibility="visible">
+
+            <Button
+                android:id="@+id/allow"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:text="@string/zaposli" />
+
+            <Button
+                android:id="@+id/deny"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:text="@string/otkazi" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

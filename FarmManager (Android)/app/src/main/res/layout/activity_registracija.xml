@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rasicmihailo.farmmanager.RegistracijaActivity">
+
+    <RelativeLayout
+        android:id="@+id/Relative1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:background="@drawable/agro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:visibility="invisible"  />
+
+        <RelativeLayout
+            android:id="@+id/Relative2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+
+            <TextView
+                android:id="@+id/textViewUnosPodataka"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="21dp"
+                android:gravity="center"
+                android:text="@string/unetiPodatke"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="fill_parent"
+                android:layout_height="56dp"
+                android:layout_below="@+id/textViewUnosPodataka"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="@string/emailReg"
+                android:inputType="textPersonName"
+                android:textColorHint="@android:color/black"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextLozinka"
+                android:layout_width="fill_parent"
+                android:layout_height="56dp"
+                android:layout_alignEnd="@+id/editTextEmail"
+                android:layout_alignRight="@+id/editTextEmail"
+                android:layout_below="@+id/editTextEmail"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="@string/lozinkaReg"
+                android:inputType="textPersonName"
+                android:password="true"
+                android:textColorHint="@android:color/black"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextLozinkaPonovo"
+                android:layout_width="fill_parent"
+                android:layout_height="56dp"
+                android:layout_alignLeft="@+id/editTextLozinka"
+                android:layout_alignStart="@+id/editTextLozinka"
+                android:layout_below="@+id/editTextLozinka"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="@string/lozinkaRegPotvrda"
+                android:inputType="textPersonName"
+                android:password="true"
+                android:textColorHint="@android:color/black"
+                android:textSize="20sp" />
+
+
+            <Button
+                android:id="@+id/buttonRegIVer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editTextLozinkaPonovo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="27dp"
+                android:onClick="onClickRegIVer"
+                android:text="@string/btnNastavi" />
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

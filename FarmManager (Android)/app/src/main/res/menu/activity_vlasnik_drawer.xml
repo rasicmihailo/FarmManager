@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_pregledaj_svoje_radnike"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/pregledajSvojeRadnike" />
+        <item
+            android:id="@+id/nav_plata"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/plate" />
+        <item
+            android:id="@+id/nav_poslovi"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/poslovi" />
+        <item
+            android:id="@+id/nav_zaposljavanje"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/pronadjiRadnike" />
+        <item
+            android:id="@+id/nav_prognoza"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/prognoza" />
+        <item
+            android:id="@+id/nav_konkursi"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/pregledajPonude" />
+    </group>
+
+
+    <item android:title="Resursi">
+        <menu>
+            <item
+                android:id="@+id/nav_resursi_stoka"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/stoka" />
+            <item
+                android:id="@+id/nav_resursi_njive"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/njive" />
+            <item
+                android:id="@+id/nav_resursi_mehanizacija"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/mehanizacija" />
+            <item
+                android:id="@+id/nav_resursi_plodovi"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/plodovi" />
+        </menu>
+    </item>
+
+
+</menu>

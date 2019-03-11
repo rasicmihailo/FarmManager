@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rasicmihailo.farmmanager.RegistracijaVlasnikActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeVeci"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:background="@drawable/agro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ProgressBar
+            android:id="@+id/progressBar4"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:visibility="invisible" /> />
+
+        <RelativeLayout
+            android:id="@+id/relativeManji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/unetiPodatkeOPoljGazd"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTextNaziv"
+                android:layout_width="fill_parent"
+                android:layout_height="56dp"
+                android:layout_below="@id/textView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="@string/naziv"
+                android:inputType="textPersonName"
+                android:textColorHint="@android:color/black" />
+
+            <EditText
+                android:id="@+id/editTextLokacija"
+                android:layout_width="fill_parent"
+                android:layout_height="56dp"
+                android:layout_below="@id/editTextNaziv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="@string/lokacija"
+                android:inputType="textPersonName"
+                android:textColorHint="@android:color/black" />
+
+            <EditText
+                android:id="@+id/editTextFinansijskoStanje"
+                android:layout_width="fill_parent"
+                android:layout_height="56dp"
+                android:layout_below="@id/editTextLokacija"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="@string/PocFinansijskoStanje"
+                android:inputType="numberDecimal"
+                android:phoneNumber="true"
+                android:textColorHint="@android:color/black"
+                app:layout_constraintBottom_toTopOf="@+id/btnKreiraj" />
+
+            <Button
+                android:id="@+id/btnKreiraj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editTextFinansijskoStanje"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:onClick="onClickKreiraj"
+                android:text="@string/btnKreiraj" />
+        </RelativeLayout>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

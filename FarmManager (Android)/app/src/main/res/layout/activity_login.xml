@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/loginLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/agro"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/txtSrb"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignRight="@id/progressBar2"
+            android:layout_below="@+id/progressBar2"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:onClick="promeniJezikNaSrb"
+            android:text="SRB" />
+
+        <TextView
+            android:id="@+id/txtCrtica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/progressBar2"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/txtSrb"
+            android:text="|" />
+
+        <TextView
+            android:id="@+id/txtEng"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_below="@+id/progressBar2"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/txtCrtica"
+            android:onClick="promeniJezikNaEng"
+            android:text="ENG" />
+
+
+        <RelativeLayout
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:layout_marginBottom="80dp"
+                app:srcCompat="@drawable/farma" />
+
+            <EditText
+                android:id="@+id/emailLogin"
+                android:layout_width="fill_parent"
+                android:layout_height="56dp"
+                android:layout_below="@id/imageView2"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:hint="@string/korisnickoLogin"
+                android:inputType="textPersonName"
+                android:textColorHint="@android:color/black"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/passwordTxt"
+                android:layout_width="fill_parent"
+                android:layout_height="57dp"
+                android:layout_below="@id/emailLogin"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:hint="@string/lozinkaLogin"
+                android:inputType="textPassword"
+                android:textColorHint="@android:color/black"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="133dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/passwordTxt"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:onClick="onClickPrijava"
+                android:text="@string/btnPrijava" />
+
+            <TextView
+                android:id="@+id/txtPrijava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnLogin"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:onClick="onClickRegistracija"
+                android:text="@string/registracija"
+                android:textColor="@android:color/black"
+                android:textSize="19sp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

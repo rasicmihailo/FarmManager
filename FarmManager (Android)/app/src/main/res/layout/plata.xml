@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#95d85b">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/plataRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/border_ponuda"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/relat"
+       />
+
+    <RelativeLayout
+        android:id="@+id/relat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnIsplatiPlate">
+
+        <TextView
+            android:id="@+id/txtVlasnikFinansije"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/border"
+            android:padding="3sp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtRadniciPlate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtVlasnikFinansije"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/border"
+            android:padding="3sp"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnIsplatiPlate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ceo"
+        android:layout_centerHorizontal="true"
+        android:text="@string/isplati" />
+
+
+    <RelativeLayout
+        android:id="@+id/ceo"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        >
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

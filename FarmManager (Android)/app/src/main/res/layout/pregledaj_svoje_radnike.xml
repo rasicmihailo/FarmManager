@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pregledaj_svoje_radnike"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recPregledajSvojeRadnike"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#95d85b"
+        android:visibility="visible">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <RelativeLayout
+        android:id="@+id/relPregledajSvojeRadnike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#d1eff9"
+        android:visibility="invisible">
+
+
+        <TextView
+            android:id="@+id/txtime"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="8dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColorHint="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtprez"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtime"
+            android:layout_margin="8dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColorHint="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtZanimanje"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtprez"
+            android:layout_margin="8dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColorHint="@android:color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txtPlata"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtZanimanje"
+            android:layout_margin="8dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:numeric="decimal"
+            android:textColorHint="@android:color/black"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtPlata"
+            android:layout_margin="8dp"
+            android:orientation="horizontal"
+            android:paddingBottom="1.0dip"
+            android:paddingLeft="4.0dip"
+            android:paddingRight="4.0dip"
+            android:paddingTop="5.0dip">
+
+            <Button
+                android:id="@+id/btnSacuvaj"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:text="@string/btnSacuvaj" />
+
+            <Button
+                android:id="@+id/btnOtpustiRadnika"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:text="@string/btnOtpusti" />
+
+            <Button
+                android:id="@+id/btnOtkaziPregledajSvojeRadnike"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:text="@string/otkazi" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

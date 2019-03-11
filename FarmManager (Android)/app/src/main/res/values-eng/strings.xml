@@ -1,0 +1,142 @@
+<resources>
+
+
+    <string name="korisnickoLogin">Enter your e-mail...</string>
+    <string name="lozinkaLogin">Enter your password...</string>
+
+    <string name="emailReg">Enter your e-mail...</string>
+    <string name="lozinkaReg">Enter new password...</string>
+    <string name="lozinkaRegPotvrda">Confirm password...</string>
+
+
+    <string name="btnPrijava">Log in</string>
+    <string name="registracija">Sign up</string>
+    <string name="unetiPodatke">Enter info</string>
+    <string name="btnNastavi">Next</string>
+
+
+    <string name="unetiLicnePod">Enter personal info</string>
+    <string name="ime">Name</string>
+    <string name="prezime">Last Name</string>
+    <string name="datumRodj">Date of birth-DD.MM.YYYY</string>
+    <string name="vlasnik">Owner</string>
+    <string name="radnik">Employee</string>
+    <string name="zemljoradnik">Peasant</string>
+    <string name="stocar">Cattleman</string>
+    <string name="mehanicar">Mechanic</string>
+    <string name="btnRegistracija">Sign up</string>
+
+    <string name="sviPodaciLogin">All fields required.</string>
+    <string name="emailLogin">E-mail required.</string>
+    <string name="lozinkaLoginAct">Password required.</string>
+    <string name="emailValidacija">You must enter correct e-mail.</string>
+
+
+    <string name="unetiPodatkeOPoljGazd">Farm information</string>
+    <string name="naziv">Name</string>
+    <string name="lokacija">Location</string>
+    <string name="PocFinansijskoStanje">Initial financials</string>
+    <string name="btnKreiraj">Create</string>
+
+    <string name="prihvatiPonudu">Accept</string>
+
+    <string name="konkurisi">Get a job</string>
+
+    <string name="isplati">Pay</string>
+    <string name="vlasnikF">Finances: </string>
+    <string name="radnikF">Payment amount: </string>
+
+    <string name="dodajStokuResurs">ADD ANIMALS</string>
+    <string name="vrstaResurs">Type: </string>
+    <string name="kolicinaResurs">Quantity: </string>
+    <string name="btnDodajResurs">Add</string>
+    <string name="btnOtkaziResurs">Cancel</string>
+    <string name="btnSacuvajResurs">Save</string>
+    <string name="btnObrisiResurs">Delete</string>
+    <string name="dodajNjivuResurs">ADD FIELDS</string>
+    <string name="dodajMehanizajuResurs">ADD Mechanization</string>
+    <string name="dodajPlodoveResurs">ADD FRUITS</string>
+
+    <string name="promeniJezik">Change to SRB</string>
+
+    <string name="pregledFarmi">Search farms</string>
+    <string name="pregledPonuda">Offers</string>
+    <string name="poslovi">Jobs</string>
+    <string name="pregledajGazdinstvo">Farm info</string>
+    <string name="prognoza">Weather Forecast</string>
+
+    <string name="pregledajSvojeRadnike">Review workers</string>
+    <string name="plate">Salary</string>
+    <string name="pronadjiRadnike">Find employees</string>
+    <string name="pregledajPonude">Review offers</string>
+
+    <string name="stoka">Livestock</string>
+    <string name="njive">Fields</string>
+    <string name="mehanizacija">Mechanization</string>
+    <string name="plodovi">Fruits</string>
+
+
+    <string name="zaposli">Hire</string>
+    <string name="otkazi">Cancel</string>
+
+    <string name="btnSacuvaj">Save</string>
+
+    <string name="radnikPri">Employee:</string>
+    <string name="opisPosla">Description:</string>
+    <string name="zavrsen">Status: </string>
+
+    <string name="nazivGazdPregled">Name of the farm:</string>
+    <string name="lokacijaGazdPregled">Location:</string>
+    <string name="ImePrezGazdPregled">Owners personal info:</string>
+
+    <string name="btnOdradiPosao">Done</string>
+
+
+    <string name="btnDodajPosaoRadniku">Add new job</string>
+    <string name="btnOtkaziPosao">Cancel</string>
+    <string name="btnDodaj">Add</string>
+    <string name="opis">Enter job description</string>
+    <string name="prez">Enter the employee last name</string>
+    <string name="im">Enter the employee name</string>
+
+    <string name="btnOtpusti">Fire</string>
+
+    <string name="prihvatiUslove">Accept</string>
+
+    <string name="posaljiPonudu">Send</string>
+    <string name="plataKonkurs">Enter desired salary...</string>
+    <string name="radnoVremeKonkurs">Enter desired work time...</string>
+
+    <string name="ok">Ok</string>
+
+    <string name="podaciVlasnikPonuda">Owners info:</string>
+
+    <string name="vremeRadno">Time(h)...</string>
+    <string name="plata">Salary(€)...</string>
+
+    <string name="lozReg">Password required.</string>
+    <string name="emailValidacijaReg">You must enter correct e-mail.</string>
+    <string name="lozPotReg">You must confirm password.</string>
+    <string name="lozViseSest">More than 6 password symbols required.</string>
+    <string name="lozPoklapanje">Passwords do not match.</string>
+    <string name="sviPodaciReg">All fields required.</string>
+    <string name="emailRegi">E-mail required.</string>
+
+
+    <string name="sviPodaciReg2"> All fields required.</string>
+    <string name="imeReg2">Name required.</string>
+    <string name="prezimeReg2">Last name required.</string>
+    <string name="datumReg2">Date of birth required.</string>
+    <string name="delatnostReg2">You must choose profession.</string>
+
+
+
+    <string name="sviPodaciVlasnik"> All fields required.</string>
+    <string name="nazivGazd">You must enter name of farm.</string>
+    <string name="finansijeVlasnik">Initial financials required.</string>
+    <string name="lokacijaVlasnik">You must enter the farm location.</string>
+
+
+    <string name="greska">System error, try again later.</string>
+
+</resources>

@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "1096560054986",
+    "firebase_url": "https://farmmanager-7aafc.firebaseio.com",
+    "project_id": "farmmanager-7aafc",
+    "storage_bucket": "farmmanager-7aafc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096560054986:android:493355d0700c5b37",
+        "android_client_info": {
+          "package_name": "com.example.rasicmihailo.farmmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1096560054986-sjlvng8hgmvtu8p6ra2qdluqlv7h5mm3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rasicmihailo.farmmanager",
+            "certificate_hash": "ca4b82c3db430271d185566f015900867ac4d7dd"
+          }
+        },
+        {
+          "client_id": "1096560054986-dn4tdjtvok48tad4qbat3so3gice6kqn.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1096560054986-dn4tdjtvok48tad4qbat3so3gice6kqn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP0i7ctgjqTp15CLjjBIycRy_rycX2nxM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1096560054986-dn4tdjtvok48tad4qbat3so3gice6kqn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

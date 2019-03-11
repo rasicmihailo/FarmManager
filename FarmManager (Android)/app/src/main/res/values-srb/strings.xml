@@ -1,0 +1,138 @@
+<resources>
+
+    <string name="korisnickoLogin">Unesite svoj e-mail...</string>
+    <string name="lozinkaLogin">Unesite svoju lozinku...</string>
+
+    <string name="dodajStokuResurs">DODAJ ZIVOTINJE</string>
+    <string name="vrstaResurs">Vrsta: </string>
+    <string name="kolicinaResurs">Kolicina: </string>
+    <string name="btnDodajResurs">Dodaj</string>
+    <string name="btnOtkaziResurs">Otkazi</string>
+    <string name="btnSacuvajResurs">Sacuvaj</string>
+    <string name="btnObrisiResurs">Obrisi</string>
+    <string name="dodajNjivuResurs">DODAJ PARCELE </string>
+    <string name="dodajMehanizajuResurs">DODAJ MEHANIZACIJU</string>
+    <string name="dodajPlodoveResurs">DODAJ PLODOVE</string>
+
+    <string name="promeniJezik">Promeni na ENG</string>
+
+
+    <string name="emailReg">Unesite svoj e-mail...</string>
+    <string name="lozinkaReg">Unesite novu lozinku...</string>
+    <string name="lozinkaRegPotvrda">Potvrdite lozinku...</string>
+
+    <string name="pregledFarmi">Pregled farmi</string>
+    <string name="pregledPonuda">Pregledaj ponude</string>
+    <string name="poslovi">Poslovi</string>
+    <string name="pregledajGazdinstvo">Pregled gazdinstva</string>
+    <string name="prognoza">Vremenska prognoza </string>
+
+    <string name="vlasnikF">Vase finansije su:  </string>
+    <string name="radnikF">Suma za isplatu: </string>
+
+    <string name="isplati">Isplati</string>
+    <string name="pregledajSvojeRadnike">Pregledaj svoje radnike</string>
+    <string name="plate">Plate</string>
+    <string name="pronadjiRadnike">Pronadji radnike</string>
+    <string name="pregledajPonude">Pregledaj ponude</string>
+    <string name="stoka">Zivotinje</string>
+    <string name="njive">Parcele</string>
+    <string name="mehanizacija">Mehanizacija</string>
+    <string name="plodovi">Plodovi</string>
+
+
+    <string name="podaciVlasnikPonuda">Podaci o vlasniku:</string>
+
+    <string name="prihvatiPonudu">Prihvati</string>
+    <string name="konkurisi">Konkurisi</string>
+
+    <string name="radnikPri">Radnik:</string>
+    <string name="opisPosla">Opis posla:</string>
+    <string name="zavrsen">Zavrsen: </string>
+
+    <string name="nazivGazdPregled">Naziv gazdinstva:</string>
+    <string name="lokacijaGazdPregled">Lokacija:</string>
+    <string name="ImePrezGazdPregled">Ime i prezime vlasnika:</string>
+    <string name="btnOdradiPosao">Odradi</string>
+
+
+    <string name="btnDodajPosaoRadniku">Dodaj novi posao</string>
+    <string name="btnOtkaziPosao">Otkazi</string>
+    <string name="btnDodaj">Dodaj</string>
+    <string name="opis">Unesite opis posla</string>
+    <string name="prez">Unesite prezime radnika</string>
+    <string name="im">Unesite ime radnika</string>
+
+    <string name="btnPrijava">Prijavite se</string>
+    <string name="registracija">Registruj se</string>
+    <string name="unetiPodatke">Unesite podatke</string>
+    <string name="btnNastavi">Nastavi</string>
+
+    <string name="btnSacuvaj">Sacuvaj</string>
+
+    <string name="btnOtpusti">Otpusti</string>
+
+    <string name="prihvatiUslove">Prihvati</string>
+
+    <string name="posaljiPonudu">Posalji</string>
+    <string name="plataKonkurs">Unesite zeljenu platu...</string>
+    <string name="radnoVremeKonkurs">Unesite zeljeno radno vreme...</string>
+
+    <string name="zaposli">Ponudi posao</string>
+    <string name="otkazi">Otkazi</string>
+
+    <string name="vremeRadno">Unesite radno vreme(h)...</string>
+    <string name="plata">Ponudite platu(RSD)...</string>
+
+    <string name="ok">Ok</string>
+
+    <string name="sviPodaciLogin">Morate uneti sve podatke.</string>
+    <string name="emailLogin">Morate uneti e-mail.</string>
+    <string name="lozinkaLoginAct">Morate uneti lozinku.</string>
+    <string name="emailValidacija">E-mail nije pravilno napisan.</string>
+
+    <string name="lozReg">Morate uneti svoju lozinku.</string>
+    <string name="emailValidacijaReg">E-mail nije pravilno napisan.</string>
+    <string name="lozPotReg"> Morate potvrditi svoju lozinku.</string>
+    <string name="lozViseSest">Lozinka mora imati 6 ili vise simbola.</string>
+    <string name="lozPoklapanje">Lozinke se ne poklapaju.</string>
+    <string name="sviPodaciReg">Morate uneti sve podatke.</string>
+    <string name="emailRegi">Morate uneti e-mail.</string>
+
+
+
+    <string name="sviPodaciReg2"> Morate uneti sve podatke.</string>
+    <string name="imeReg2">Morate uneti svoje ime.</string>
+    <string name="prezimeReg2">Morate uneti svoje prezime.</string>
+    <string name="datumReg2">Morate uneti svoj datum rodjenja.</string>
+    <string name="delatnostReg2">Morate izabrati delatnost.</string>
+
+
+    <string name="sviPodaciVlasnik"> Morate uneti sve podatke.</string>
+    <string name="nazivGazd">Morate uneti naziv gazdinstva.</string>
+    <string name="finansijeVlasnik">Morate uneti pocetno finansijsko stanje gazdinstva.</string>
+    <string name="lokacijaVlasnik">Morate uneti lokaciju gazdinstva.</string>
+
+    <string name="imeIprezimeVlasnikActivity"></string>
+    <string name="emailVlasnikActivity"></string>
+
+    <string name="greska">Doslo je do greske, pokusajte ponovo.</string>
+
+    <string name="unetiLicnePod">Unesite licne podatke</string>
+    <string name="ime">Ime</string>
+    <string name="prezime">Prezime</string>
+    <string name="datumRodj">Datum rodjenja-DD.MM.YYYY</string>
+    <string name="vlasnik">Vlasnik</string>
+    <string name="radnik">Radnik</string>
+    <string name="zemljoradnik">Zemljoradnik</string>
+    <string name="stocar">Stocar</string>
+    <string name="mehanicar">Mehanicar</string>
+    <string name="btnRegistracija">Registruj se</string>
+
+    <string name="unetiPodatkeOPoljGazd">Unesite podatke o poljoprivrednom gazdinstvu</string>
+    <string name="naziv">Naziv</string>
+    <string name="lokacija">Lokacija</string>
+    <string name="PocFinansijskoStanje">Pocetno finansijsko stanje</string>
+    <string name="btnKreiraj">Kreiraj</string>
+
+</resources>

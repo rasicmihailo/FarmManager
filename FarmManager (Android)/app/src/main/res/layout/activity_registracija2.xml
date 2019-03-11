@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rasicmihailo.farmmanager.Registracija2Activity">
+
+    <RelativeLayout
+        android:id="@+id/relativeNajveci"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:background="@drawable/agro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ProgressBar
+            android:id="@+id/progressBar3"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:visibility="invisible"  />
+
+        <RelativeLayout
+            android:id="@+id/relativeSrednji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/unetiLicnePod"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTextIme"
+                android:layout_width="fill_parent"
+                android:layout_height="56dp"
+                android:layout_below="@id/textView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="@string/ime"
+                android:inputType="textPersonName"
+                android:textColorHint="@android:color/black" />
+
+            <EditText
+                android:id="@+id/editTextPrezime"
+                android:layout_width="fill_parent"
+                android:layout_height="56dp"
+                android:layout_below="@+id/editTextIme"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="@string/prezime"
+                android:inputType="textPersonName"
+                android:textColorHint="@android:color/black" />
+
+            <EditText
+                android:id="@+id/editTextDatum"
+                android:layout_width="fill_parent"
+                android:layout_height="56dp"
+                android:layout_below="@+id/editTextPrezime"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="@string/datumRodj"
+                android:inputType="textPersonName"
+                android:textColorHint="@android:color/black" />
+
+            <RelativeLayout
+                android:id="@+id/Relative4"
+                style="@style/AppTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editTextDatum"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp">
+
+                <Switch
+                    android:id="@+id/switchPosao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:onClick="onClickPosao"
+                    android:text="@string/vlasnik"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textViewVlasnik"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/switchPosao"
+                    android:layout_alignBottom="@+id/switchPosao"
+                    android:layout_toRightOf="@+id/switchPosao"
+                    android:text="@string/radnik"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeNajmanji"
+                style="@style/AppTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Relative4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:visibility="invisible">
+
+                <RadioGroup
+                    android:id="@+id/radioGroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radioButtonZemljoradnik"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/zemljoradnik"
+                        android:textColor="@android:color/black" />
+
+                    <RadioButton
+                        android:id="@+id/radioButtonStocar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/stocar"
+                        android:textColor="@android:color/black" />
+
+                    <RadioButton
+                        android:id="@+id/radioButtonMehanicar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mehanicar"
+                        android:textColor="@android:color/black" />
+
+
+                </RadioGroup>
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/buttonRegIVer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativeNajmanji"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="27dp"
+                android:onClick="onClickRegistrujSe"
+                android:text="@string/btnRegistracija" />
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

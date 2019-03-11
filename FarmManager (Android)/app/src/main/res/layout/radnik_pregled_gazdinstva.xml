@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pregledGazdinstva"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#95d85b">
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/relProba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/nazivGazdPregled"
+            android:textColorHint="@android:color/black"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/txtNazivFarme"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/txt1"
+            android:layout_marginLeft="10dp"
+            android:padding="4dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColorHint="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/txtNazivFarme"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/lokacijaGazdPregled"
+            android:textColorHint="@android:color/black"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/txtLokacijaFarme"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/txt2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:padding="4dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColorHint="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/txtLokacijaFarme"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/ImePrezGazdPregled"
+            android:textColorHint="@android:color/black"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/txtpImeIPezVlasnika"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:padding="4dp"
+            android:layout_below="@+id/txt3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColorHint="@android:color/black"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+</RelativeLayout>
